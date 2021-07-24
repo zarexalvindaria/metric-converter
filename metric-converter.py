@@ -4,7 +4,7 @@ from tkinter import ttk, END
 
 # Define window
 root = tk.Tk()
-root.title("Metric Helper")
+root.title("Metric Converter")
 root.iconbitmap("ruler.ico")
 root.resizable(0, 0)
 

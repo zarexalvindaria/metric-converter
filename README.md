@@ -4,5 +4,5 @@ centi, deci, meter, deca, hecto, kilo, mega, giga, tera, and peta).
 
 ## Screenshot
 <p align="center">
-    <img alt="metric helper screenshot" src="https://raw.githubusercontent.com/zarexalvindaria/metric-converter/main/img/metric-converter-snapshot.png" />
+    <img width="" alt="metric helper screenshot" src="https://raw.githubusercontent.com/zarexalvindaria/metric-converter/main/img/metric-converter-snapshot.png" />
 </p>

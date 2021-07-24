@@ -49,7 +49,7 @@ output_choice.set('base value')
 
 #Create a conversion button
 convert_button = tk.Button(root, text="Convert", font=field_font, bg=button_color)
-convert_button.grid(row=2, column=0, columnspan=3, padx=10, pady=10)
+convert_button.grid(row=2, column=0, columnspan=3, padx=10, pady=10, ipadx=50)
 
 #Run the root window
 root.mainloop()

@@ -21,13 +21,13 @@ root.config(bg = bg_color)
 
 
 #Create the input and output entry fields
-input_field = tk.Entry(root, width=20, font=field_font)
-output_field = tk.Entry(root, width=20, font=field_font)
+input_field = tk.Entry(root, width=20, font=field_font, borderwidth=3)
+output_field = tk.Entry(root, width=20, font=field_font, borderwidth=3)
 equal_label = tk.Label(root, text="=", font=field_font, bg=bg_color)
 
-input_field.grid(row=0, column=0)
-equal_label.grid(row=0, column=1)
-output_field.grid(row=0, column=2)
+input_field.grid(row=0, column=0, padx=10, pady=10)
+equal_label.grid(row=0, column=1, padx=10, pady=10)
+output_field.grid(row=0, column=2, padx=10, pady=10)
 
 input_field.insert(0, "Enter your quantity")
 
@@ -49,7 +49,7 @@ output_choice.set('base value')
 
 #Create a conversion button
 convert_button = tk.Button(root, text="Convert", font=field_font, bg=button_color)
-convert_button.grid(row=2, column=0, columnspan=3)
+convert_button.grid(row=2, column=0, columnspan=3, padx=10, pady=10)
 
 #Run the root window
 root.mainloop()
